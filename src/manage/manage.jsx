@@ -15,19 +15,19 @@ const Manage = () => {
                 </div>
                 <div className="d-flex justify-content-around align-items-center text-center">
                     <div className="manage-section container">
-                        <img src="./public/manage/icon.png" alt="" />
+                        <img src="/manage/icon.png" alt="" />
                         <h3 className="">Membership Organisation</h3>
                         <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                         <hr className="opacity-25" />
                     </div>
                     <div className="manage-section container">
-                        <img src="./public/manage/icon (1).png" alt="" />
+                        <img src="/manage/iconN1.png" alt="" />
                         <h3 className="">National Assocations</h3>
                         <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                         <hr className="opacity-25" />
                     </div>
                     <div className="manage-section container">
-                        <img src="./public/manage/icon (2).png" alt="" />
+                        <img src="/manage/iconN2.png" alt="" />
                         <h3 className="">Clubs and Groubs</h3>
                         <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                         <hr className="opacity-25" />
@@ -41,17 +41,17 @@ const Manage = () => {
                     <p className="manage-text opacity-75">Who is Nextcent suitable for?</p>
                 </div>
                 <div className="manage-section py-3">
-                    <img src="./public/manage/icon.png" alt="" />
+                    <img src="/manage/icon.png" alt="" />
                     <h3 className="">Membership Organisation</h3>
                     <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="manage-section py-3">
-                    <img src="./public/manage/icon (1).png" alt="" />
+                    <img src="/manage/iconN1.png" alt="" />
                     <h3 className="">National Assocations</h3>
                     <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="manage-section py-3">
-                    <img src="./public/manage/icon (2).png" alt="" />
+                    <img src="/manage/iconN2.png" alt="" />
                     <h3 className="">Clubs and Groubs</h3>
                     <p className="opacity-75">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
