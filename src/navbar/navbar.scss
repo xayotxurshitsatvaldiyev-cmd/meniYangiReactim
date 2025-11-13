@@ -1,0 +1,76 @@
+$y: #4CAF4F;
+
+.bc {
+    color: $y;
+}
+
+.bc:hover {
+    color: white;
+    background: $y;
+}
+
+.b {
+    background: $y;
+    color: white;
+}
+
+.b:hover {
+    color: $y;
+}
+
+.nb {
+    background: #F5F7FA;
+}
+
+.lc {
+    a {
+        color: black;
+    }
+
+    &:hover {
+        background: $y;
+        transition: all 0.3s ease;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+.kl {
+    height: 100vh;
+}
+
+.mobile-navbar {
+    position: absolute;
+    height: 100vh;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+
+    // ichidagi linklar
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px 0;
+        width: 100%;
+        text-align: center;
+        transition: background 0.2s;
+    }
+
+    // .show klassi qo‘shilganda
+    &.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

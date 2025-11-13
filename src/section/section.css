@@ -1,0 +1,20 @@
+.section-title {
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.nmn button {
+  background: #4CAF4F;
+  color: white;
+  font-size: 16px;
+}
+.nmn button:hover {
+  color: #4CAF4F;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 36px;
+  }
+}/*# sourceMappingURL=section.css.map */

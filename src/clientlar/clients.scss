@@ -1,0 +1,11 @@
+$q : #4D4D4D;
+
+.clients-title {
+    color: $q;
+    font-size: 32px;
+}
+
+.mg-hover:hover {
+    transition: all 0.3s ease; 
+    box-shadow: 0 0 10px 0 $q ;
+}

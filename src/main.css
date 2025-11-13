@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "intr";
+    src: url("./fonts/Inter_28pt-Regular.ttf");
+    font-weight: 600;
+}
+
+.root {
+    font-family: "intr", 'san-sarif';
+}

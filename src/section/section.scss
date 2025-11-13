@@ -1,0 +1,26 @@
+$q : #4D4D4D;
+$y: #4CAF4F;
+
+.section-title {
+    color: $q;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.nmn {
+    button {
+        background: $y;
+        color: white;
+        font-size: 16px;
+
+        &:hover {
+            color: $y;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 36px;
+    }
+}
