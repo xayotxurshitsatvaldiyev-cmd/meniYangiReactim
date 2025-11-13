@@ -1,4 +1,5 @@
 import "./section2.css"
+import pana from "./pana.png"
 
 const Section2 = () => {
     return (
@@ -6,7 +7,7 @@ const Section2 = () => {
             <div className="d-lg-flex container align-items-center d-none">
 
                 <div className="col-5 text-center">
-                    <img src="./public/pana.png" alt="" />
+                    <img src={pana} alt="" />
                 </div>
                 <div className="col-7 nmn">
                     <h2 className="col-9 section-title">
@@ -28,7 +29,7 @@ const Section2 = () => {
                     </h2>
                 </div>
                 <div className="igm">
-                    <img src="./public/pana.png" alt="" />
+                    <img src={pana} alt="" />
                 </div>
                 <div className="nmn">
                     <p className="opacity-75 my-4 section-text">

@@ -1,4 +1,5 @@
 import "./section.css"
+import frame from "./Frame35.png"
 
 const Section = () => {
     return (
@@ -7,7 +8,7 @@ const Section = () => {
             <div className="d-lg-flex container align-items-center d-none">
 
                 <div className="col-5 text-center">
-                    <img src="./public/Frame 35.png" alt="" />
+                    <img src={frame} alt="" />
                 </div>
                 <div className="col-7 nmn">
                     <h2 className="col-9 section-title">
@@ -29,7 +30,7 @@ const Section = () => {
                     </h2>
                 </div>
                 <div className="igm">
-                    <img src="./public/Frame 35.png" alt="" />
+                    <img src={frame} alt="" />
                 </div>
                 <div className="nmn">
                     <p className="opacity-75 my-4 section-text">

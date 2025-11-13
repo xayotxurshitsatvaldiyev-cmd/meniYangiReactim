@@ -1,4 +1,11 @@
 import "./clients.css"
+import c1 from "./clientlarImgs/client1.png"
+import c2 from "./clientlarImgs/client2.png"
+import c3 from "./clientlarImgs/client3.png"
+import c4 from "./clientlarImgs/client4.png"
+import c5 from "./clientlarImgs/client5.png"
+import c6 from "./clientlarImgs/client6.png"
+import c7 from "./clientlarImgs/client7.png"
 
 const Clients = () => {
     return (
@@ -10,25 +17,25 @@ const Clients = () => {
                 </div>
                 <div className="d-flex justify-content-around py-4 align-items-center">
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client1.png" alt="" />
+                        <img src={c1} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client7.png" alt="" />
+                        <img src={c7} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client2.png" alt="" />
+                        <img src={c2} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client3.png" alt="" />
+                        <img src={c3} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client4.png" alt="" />
+                        <img src={c4} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client5.png" alt="" />
+                        <img src={c5} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-2 rounded-4">
-                        <img src="./public/clientlar/client6.png" alt="" />
+                        <img src={c6} alt="" />
                     </div>
                 </div>
             </div>
@@ -41,30 +48,30 @@ const Clients = () => {
 
                 <div className="d-flex justify-content-around py-4 align-items-center">
                     <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client1.png" alt="" />
+                        <img src={c1} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client7.png" alt="" />
-                    </div>
-                </div>
-                <div className="d-flex justify-content-around py-4 align-items-center">
-                    <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client2.png" alt="" />
-                    </div>
-                    <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client3.png" alt="" />
+                        <img src={c7} alt="" />
                     </div>
                 </div>
                 <div className="d-flex justify-content-around py-4 align-items-center">
                     <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client4.png" alt="" />
+                        <img src={c2} alt="" />
                     </div>
                     <div className="mg-hover px-3 py-1 rounded-4">
-                        <img src="./public/clientlar/client5.png" alt="" />
+                        <img src={c3} alt="" />
+                    </div>
+                </div>
+                <div className="d-flex justify-content-around py-4 align-items-center">
+                    <div className="mg-hover px-3 py-1 rounded-4">
+                        <img src={c4} alt="" />
+                    </div>
+                    <div className="mg-hover px-3 py-1 rounded-4">
+                        <img src={c5} alt="" />
                     </div>
                 </div>
                 <div className="text-center mg-hover px-3 py-1 rounded-4">
-                    <img src="./public/clientlar/client6.png" alt="" />
+                    <img src={c6} alt="" />
                 </div>
             </div>
         </>

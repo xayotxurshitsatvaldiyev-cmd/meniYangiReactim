@@ -1,4 +1,5 @@
 import "./hero.css"
+import hero from "./hero.png"
 
 function Hero() {
     return (
@@ -10,7 +11,7 @@ function Hero() {
                     <button className="btn mt-2 hbb px-4 py-2 rounded-1">Register</button>
                 </div>
                 <div>
-                    <img src="./public/hero.png" alt="" />
+                    <img src={hero} alt="" />
                 </div>
             </div>
 
@@ -21,7 +22,7 @@ function Hero() {
                     <button className="btn w-75 mt-2 hbb px-4 py-2 rounded-1">Register</button>
                 </div>
                 <div className="text-center py-3 igm">
-                    <img src="./public/hero.png" alt="" />
+                    <img src={hero} alt="" />
                 </div>
             </div>
         </div>

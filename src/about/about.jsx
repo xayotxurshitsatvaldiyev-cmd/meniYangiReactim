@@ -1,4 +1,8 @@
 import "./about.css"
+import b1 from "./aboutImgs/1.png"
+import b2 from "./aboutImgs/2.png"
+import b3 from "./aboutImgs/3.png"
+import b4 from "./aboutImgs/4.png"
 
 const About = () => {
     return (
@@ -13,12 +17,12 @@ const About = () => {
                     </div>
                     <div>
                         <div className="mb-5">
-                            <img src="./public/about/2.png" alt="" />
-                            <img src="./public/about/1.png" alt="" />
+                            <img src={b2} alt="" />
+                            <img src={b1} alt="" />
                         </div>
                         <div>
-                            <img src="./public/about/3.png" alt="" />
-                            <img src="./public/about/4.png" alt="" />
+                            <img src={b3} alt="" />
+                            <img src={b4} alt="" />
                         </div>
                     </div>
                 </div>
@@ -32,12 +36,12 @@ const About = () => {
                     </div>
                     <div className="text-center">
                         <div className="">
-                            <img src="./public/about/2.png" alt="" className="py-3" />
-                            <img src="./public/about/1.png" alt="" className="py-3" />
+                            <img src={b2} alt="" className="py-3" />
+                            <img src={b1} alt="" className="py-3" />
                         </div>
                         <div>
-                            <img src="./public/about/3.png" alt="" className="py-3" />
-                            <img src="./public/about/4.png" alt="" className="py-3" />
+                            <img src={b3} alt="" className="py-3" />
+                            <img src={b4} alt="" className="py-3" />
                         </div>
                     </div>
                 </div>
