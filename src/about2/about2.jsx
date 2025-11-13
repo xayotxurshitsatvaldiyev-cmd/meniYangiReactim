@@ -1,11 +1,11 @@
 import "./about2.css"
-import image from "./image9.png"
-import c1 from "./clientlarImgs/client1.png"
-import c2 from "./clientlarImgs/client2.png"
-import c3 from "./clientlarImgs/client3.png"
-import c4 from "./clientlarImgs/client4.png"
-import c5 from "./clientlarImgs/client5.png"
-import c6 from "./clientlarImgs/client6.png"
+import image from "./src/clientlar/image9.png"
+import c1 from "./src/clientlar/clientlarImgs/client1.png"
+import c2 from "./src/clientlar/clientlarImgs/client2.png"
+import c3 from "./src/clientlar/clientlarImgs/client3.png"
+import c4 from "./src/clientlar/clientlarImgs/client4.png"
+import c5 from "./src/clientlar/clientlarImgs/client5.png"
+import c6 from "./src/clientlar/clientlarImgs/client6.png"
 
 const About2 = () => {
     return (
