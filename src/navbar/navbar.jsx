@@ -1,4 +1,6 @@
 import { useState } from "react"
+import rasm from "./Logo.png"
+import menu from "./menu.png"
 import "./navbar.css"
 
 function Navbar() {
@@ -16,7 +18,7 @@ function Navbar() {
 
             <nav className="nb d-flex align-items-center justify-content-around justify-content-lg-evenly navbar navbar-expand-lg">
                 <div>
-                    <img src="./public/Logo.png" alt="" />
+                    <img src={rasm} alt="" />
                 </div>
 
                 <ul className="d-lg-flex justify-content-around d-none">
@@ -34,7 +36,7 @@ function Navbar() {
                 </div>
 
                 <div className="d-block d-lg-none" onClick={bosganda}>
-                    <img src="./public/menu.png" alt="" />
+                    <img src={menu} alt="" />
                 </div>
 
                 {ochilgan && (
